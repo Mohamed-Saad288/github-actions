@@ -17,7 +17,7 @@ on:
 #      - saad
 #     -----------
     tags:
-      - v2
+      - "v2"
 jobs:
   first_job:
     runs-on: ubuntu-latest
