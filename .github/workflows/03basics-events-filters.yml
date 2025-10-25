@@ -7,8 +7,17 @@ on:
 #      - closed
 #      - reopened
   push:
-    branches:
-      - main
+#    branches:
+#      - main
+#      - saad
+#    or same
+#     branches: [main,saad]
+#    ------------
+#    branches-ignore:
+#      - saad
+#     -----------
+    tags:
+      - v2
 jobs:
   first_job:
     runs-on: ubuntu-latest
