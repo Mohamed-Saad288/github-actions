@@ -21,8 +21,12 @@ on:
 #    tags-ignore:
 #      - "v2"
 
-    paths:
-      - 'routes/web.php'
+#    paths:
+#      - 'routes/web.php'
+#      - routes/*.php'    one level files only
+#      - routes/**.php'   multi level files and folder
+#    paths-ignore:
+#      - 'routes/console.php'
 jobs:
   first_job:
     runs-on: ubuntu-latest
